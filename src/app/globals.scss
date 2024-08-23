@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: 0 0% 100%;
+    --text: 222.2 84% 4.9%;
+    --card-bg: 0 0% 100%;
+    --card-text: 222.2 84% 4.9%;
+    --popover-bg: 0 0% 100%;
+    --popover-text: 222.2 84% 4.9%;
+    --primary-bg: 221.2 83.2% 53.3%;
+    --primary-text: 210 40% 98%;
+    --secondary-bg: 210 40% 96.1%;
+    --secondary-text: 222.2 47.4% 11.2%;
+    --muted-bg: 210 40% 96.1%;
+    --muted-text: 215.4 16.3% 46.9%;
+    --accent-bg: 210 40% 96.1%;
+    --accent-text: 222.2 47.4% 11.2%;
+    --success-bg: 142 70.6% 45.3%;
+    --success-text: 0 0% 100%;
+    --error-bg: 0 84.2% 60.2%;
+    --error-text: 210 40% 98%;
+    --warning-bg: 38 92% 50%;
+    --warning-text: 0 0% 100%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.75rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --bg: 222.2 84% 4.9%;
+    --text: 210 40% 98%;
+    --card-bg: 222.2 84% 4.9%;
+    --card-text: 210 40% 98%;
+    --popover-bg: 222.2 84% 4.9%;
+    --popover-text: 210 40% 98%;
+    --primary-bg: 217.2 91.2% 59.8%;
+    --primary-text: 222.2 47.4% 11.2%;
+    --secondary-bg: 217.2 32.6% 17.5%;
+    --secondary-text: 210 40% 98%;
+    --muted-bg: 217.2 32.6% 17.5%;
+    --muted-text: 215 20.2% 65.1%;
+    --accent-bg: 217.2 32.6% 17.5%;
+    --accent-text: 210 40% 98%;
+    --success-bg: 142 76.2% 36.3%;
+    --success-text: 210 40% 98%;
+    --error-bg: 0 62.8% 30.6%;
+    --error-text: 210 40% 98%;
+    --warning-bg: 32 95% 44%;
+    --warning-text: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-bg text-text;
+  }
+}
